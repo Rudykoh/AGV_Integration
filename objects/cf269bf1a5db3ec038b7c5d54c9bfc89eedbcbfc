@@ -1,0 +1,4 @@
+[map "c2b320e8-791a-3d39-965e-1ad8ff0774c4"]
+	object = abd2013d4d68146aed399e83460ede13d683ff1e
+	path = AGV_NAV
+	type = expand module

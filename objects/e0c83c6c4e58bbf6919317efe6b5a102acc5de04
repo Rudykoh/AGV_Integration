@@ -24,8 +24,8 @@
 	path = AGV_FMC
 	stage = sync
 	type = extract module
-[map "b2ef0950-ab01-30c3-8a11-3e8ee8d1418f"]
-	object = cf269bf1a5db3ec038b7c5d54c9bfc89eedbcbfc
+[map "4113571f-a3c6-3baf-9cd6-0f5675b256cf"]
+	object = 3f0a9442003ad1b38356fbb0653a43fdd1b01a7d
 	path = AGV_NAV
 	stage = sync
 	type = extract module
