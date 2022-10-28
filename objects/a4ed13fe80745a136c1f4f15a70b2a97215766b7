@@ -1,0 +1,36 @@
+[module "db1008f4-ec2b-375c-8d51-3942917d2804"]
+	conflict = request-pull
+	path = AGV_FMC
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/558735354
+[module "e43753d9-4432-3c5f-8590-550991cc6a24"]
+	conflict = request-pull
+	path = AGV_NAV
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/558734945
+[module "1f9a4fdc-1ffd-3e4e-9a8a-ecacac4994cf"]
+	conflict = request-pull
+	path = AGV_PER
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/558735252
+[map "12e00aa4-c70c-30f7-9fe1-617531a7b5c2"]
+	object = 71704a2c18360f2d1f0b69c42b5fb4067ef2b39e
+	path = AGV_FMC
+	stage = sync
+	type = extract module
+[map "e193889a-9a0c-361b-a291-f3be3c6e004c"]
+	object = d0479c04d90e4a22e3d7d10bcfbab654f1104fca
+	path = AGV_NAV
+	stage = sync
+	type = extract module
+[map "a91b64f7-beb5-3673-9ad2-08c7a0563ec5"]
+	object = dc41336af4b20919c91c8c00db44924b1095af56
+	path = AGV_PER
+	stage = sync
+	type = extract module
