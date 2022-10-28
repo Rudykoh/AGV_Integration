@@ -1,0 +1,21 @@
+[module "db1008f4-ec2b-375c-8d51-3942917d2804"]
+	conflict = request-pull
+	path = AGV_FMC
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/558735354
+[module "e43753d9-4432-3c5f-8590-550991cc6a24"]
+	conflict = request-pull
+	path = AGV_NAV
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/558734945
+[module "1f9a4fdc-1ffd-3e4e-9a8a-ecacac4994cf"]
+	conflict = request-pull
+	path = AGV_PER
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/558735252
