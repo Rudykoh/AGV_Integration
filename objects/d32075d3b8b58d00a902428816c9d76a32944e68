@@ -1,4 +1,4 @@
-[map "d653d92f-7b30-38ff-82d2-c975590c3158"]
+[map "067dda2e-3c67-34c8-a940-6690e700fb2f"]
 	object = 102d4a6641c33da0c3215bd280f75d08ee4f0480
-	path = AGV_PER
+	path = AGV_NAV
 	type = expand module
